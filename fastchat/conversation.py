@@ -85,22 +85,41 @@ conv_v1 = Conversation(
            "The assistant gives helpful, detailed, and polite answers to the human's questions.",
     roles=("Human", "Assistant"),
     messages=(
-        ("Human", "Give three tips for staying healthy."),
+        ("Human", "Hola, quiero hacer un deposito"),
         ("Assistant",
-            "Sure, here are three tips for staying healthy:\n"
-            "1. Exercise regularly: Regular physical activity can help improve your overall health and wellbeing. "
-            "It can also help reduce your risk of chronic conditions such as obesity, diabetes, heart disease, "
-            "and certain cancers. Aim for at least 150 minutes of moderate-intensity aerobic exercise or "
-            "75 minutes of vigorous-intensity aerobic exercise per week, along with muscle-strengthening "
-            "activities at least two days per week.\n"
-            "2. Eat a balanced diet: Eating a balanced diet that is rich in fruits, "
-            "vegetables, whole grains, lean proteins, and healthy fats can help support "
-            "your overall health. Try to limit your intake of processed and high-sugar foods, "
-            "and aim to drink plenty of water throughout the day.\n"
-            "3. Get enough sleep: Getting enough quality sleep is essential for your physical "
-            "and mental health. Adults should aim for seven to nine hours of sleep per night. "
-            "Establish a regular sleep schedule and try to create a relaxing bedtime routine to "
-            "help improve the quality of your sleep.")
+            '[\n'
+          '{\n'
+            '"text": "Hola, Bienvenido a Vision Banco!",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Talking_2",\n'
+          '},\n'
+          '{\n'
+            '"text": "Necesito su numero de cedula para generarle un ticket",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Laughing",\n'
+          '},\n'
+        ']'),
+        ("Human", "Bueno, mi numero de cedula es 3.806.892"),
+        ("Assistant",
+            '[\n'
+          '{\n'
+            '"text": "Muchas gracias",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Talking_2",\n'
+            '"functionCall": {\n'
+              '"name": "generarTicket",\n'
+              '"parameters": {\n'
+                '"CI": "3.806892",\n'
+                '"Servicio": "CAJA"\n'
+              '}\n'
+            '}\n'
+          '},\n'
+          '{\n'
+            '"text": "si puede pasar al area de caja para hacer un deposito",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Laughing",\n'
+          '},\n'
+        ']')
     ),
     offset=2,
     sep_style=SeparatorStyle.SINGLE,
@@ -112,26 +131,41 @@ conv_v1_2 = Conversation(
            "The assistant gives helpful, detailed, and polite answers to the human's questions.",
     roles=("Human", "Assistant"),
     messages=(
-        ("Human", "What are the key differences between renewable and non-renewable energy sources?"),
+        ("Human", "Hola, quiero hacer un deposito"),
         ("Assistant",
-            "Renewable energy sources are those that can be replenished naturally in a relatively "
-            "short amount of time, such as solar, wind, hydro, geothermal, and biomass. "
-            "Non-renewable energy sources, on the other hand, are finite and will eventually be "
-            "depleted, such as coal, oil, and natural gas. Here are some key differences between "
-            "renewable and non-renewable energy sources:\n"
-            "1. Availability: Renewable energy sources are virtually inexhaustible, while non-renewable "
-            "energy sources are finite and will eventually run out.\n"
-            "2. Environmental impact: Renewable energy sources have a much lower environmental impact "
-            "than non-renewable sources, which can lead to air and water pollution, greenhouse gas emissions, "
-            "and other negative effects.\n"
-            "3. Cost: Renewable energy sources can be more expensive to initially set up, but they typically "
-            "have lower operational costs than non-renewable sources.\n"
-            "4. Reliability: Renewable energy sources are often more reliable and can be used in more remote "
-            "locations than non-renewable sources.\n"
-            "5. Flexibility: Renewable energy sources are often more flexible and can be adapted to different "
-            "situations and needs, while non-renewable sources are more rigid and inflexible.\n"
-            "6. Sustainability: Renewable energy sources are more sustainable over the long term, while "
-            "non-renewable sources are not, and their depletion can lead to economic and social instability.\n")
+            '[\n'
+          '{\n'
+            '"text": "Hola, Bienvenido a Vision Banco!",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Talking_2",\n'
+          '},\n'
+          '{\n'
+            '"text": "Necesito su numero de cedula para generarle un ticket",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Laughing",\n'
+          '},\n'
+        ']'),
+        ("Human", "Bueno, mi numero de cedula es 3.806.892"),
+        ("Assistant",
+            '[\n'
+          '{\n'
+            '"text": "Muchas gracias",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Talking_2",\n'
+            '"functionCall": {\n'
+              '"name": "generarTicket",\n'
+              '"parameters": {\n'
+                '"CI": "3.806892",\n'
+                '"Servicio": "CAJA"\n'
+              '}\n'
+            '}\n'
+          '},\n'
+          '{\n'
+            '"text": "si puede pasar al area de caja para hacer un deposito",\n'
+            '"facialExpression": "smile",\n'
+            '"animation": "Laughing",\n'
+          '},\n'
+        ']')
     ),
     offset=2,
     sep_style=SeparatorStyle.SINGLE,
