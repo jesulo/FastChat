@@ -21,7 +21,11 @@ class Conversation:
     sep2: str = None
 
     skip_next: bool = False
-
+    
+    def set_system(self, new_system):
+        """Set the 'system' property to a new value."""
+        self.system = new_system
+        
     def get_prompt(self):
         if self.sep_style == SeparatorStyle.SINGLE:
             ret = self.system + self.sep
