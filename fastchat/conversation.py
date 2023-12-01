@@ -143,7 +143,7 @@ conv_v1_2 = Conversation(
             '"text": "Necesito su numero de cedula para generarle un ticket",\n'
             '"facialExpression": "smile",\n'
             '"animation": "Laughing"\n'
-          '},\n'
+          '}\n'
         ']'),
         ("Human", "Bueno, mi numero de cedula es 3.806.892"),
         ("Assistant",
@@ -164,7 +164,7 @@ conv_v1_2 = Conversation(
             '"text": "Ahora ya puede pasar a esperar su turno para hacer su deposito",\n'
             '"facialExpression": "smile",\n'
             '"animation": "Laughing"\n'
-          '},\n'
+          '}\n'
         ']'),
         ("Human", "Hola, quiero hablar con alguien de atencion a clientes"),
         ("Assistant",
@@ -178,7 +178,7 @@ conv_v1_2 = Conversation(
             '"text": "Necesito su numero de cedula para generarle un ticket",\n'
             '"facialExpression": "smile",\n'
             '"animation": "Laughing"\n'
-          '},\n'
+          '}\n'
         ']'),
         ("Human", "Bueno, mi numero de cedula es 2.206.892"),
         ("Assistant",
@@ -199,7 +199,7 @@ conv_v1_2 = Conversation(
             '"text": "Puede pasar a esperar su turno",\n'
             '"facialExpression": "smile",\n'
             '"animation": "Laughing"\n'
-          '},\n'
+          '}\n'
         ']')
     ),
     offset=2,
