@@ -137,12 +137,12 @@ conv_v1_2 = Conversation(
           '{\n'
             '"text": "Hola, Bienvenido a Vision Banco!",\n'
             '"facialExpression": "smile",\n'
-            '"animation": "Talking2",\n'
+            '"animation": "Talking2"\n'
           '},\n'
           '{\n'
             '"text": "Necesito su numero de cedula para generarle un ticket",\n'
             '"facialExpression": "smile",\n'
-            '"animation": "Laughing",\n'
+            '"animation": "Laughing"\n'
           '},\n'
         ']'),
         ("Human", "Bueno, mi numero de cedula es 3.806.892"),
@@ -161,23 +161,23 @@ conv_v1_2 = Conversation(
             '}\n'
           '},\n'
           '{\n'
-            '"text": "si puede pasar al area de caja para hacer un deposito",\n'
+            '"text": "Ahora ya puede pasar a esperar su turno para hacer su deposito",\n'
             '"facialExpression": "smile",\n'
-            '"animation": "Laughing",\n'
+            '"animation": "Laughing"\n'
           '},\n'
         ']'),
-        ("Human", "Hola, quiero hacer ir a atencion a clientes"),
+        ("Human", "Hola, quiero hablar con alguien de atencion a clientes"),
         ("Assistant",
             '[\n'
           '{\n'
             '"text": "Hola, Bienvenido a Vision Banco!",\n'
             '"facialExpression": "smile",\n'
-            '"animation": "Talking2",\n'
+            '"animation": "Talking2"\n'
           '},\n'
           '{\n'
             '"text": "Necesito su numero de cedula para generarle un ticket",\n'
             '"facialExpression": "smile",\n'
-            '"animation": "Laughing",\n'
+            '"animation": "Laughing"\n'
           '},\n'
         ']'),
         ("Human", "Bueno, mi numero de cedula es 2.206.892"),
@@ -198,7 +198,7 @@ conv_v1_2 = Conversation(
           '{\n'
             '"text": "Puede pasar a esperar su turno",\n'
             '"facialExpression": "smile",\n'
-            '"animation": "Laughing",\n'
+            '"animation": "Laughing"\n'
           '},\n'
         ']')
     ),
