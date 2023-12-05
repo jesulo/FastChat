@@ -136,7 +136,7 @@ conv_v1_2 = Conversation(
         ("Assistant",
             '[\n'
           '{\n'
-            '"text": "Hola, Bienvenido a Vision Banco! Necesito su numero de cedula para generarle un ticket",\n'
+            '"text": "Hola, Bienvenido a Visión Banco! Necesito su numero de cedula para generarle un ticket",\n'
             '"facialExpression": "smile",\n'
             '"animation": "Talking2"\n'
           '}\n'
